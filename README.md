@@ -13,5 +13,5 @@
 4. Initial Setup is Over. Now you can type your message in the bottom input bar and press enter to send him the message
 5. Chat session commences
 
-<a href="https://drive.google.com/drive/folders/1LJ94fhSc-guG2sH_bIOw9-Fk4NyO24Qo?usp=sharing" style="font-size: 24px;">Download App</a>
+<a href="https://drive.google.com/drive/folders/1LJ94fhSc-guG2sH_bIOw9-Fk4NyO24Qo?usp=sharing" style="font-size: 32px;">Download App</a>
 
