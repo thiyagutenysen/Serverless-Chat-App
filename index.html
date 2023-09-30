@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Serverless Anonymous Chat</title>
+</head>
+
+<body>
+    <section id="chat-info" class="align-items-start sticky-top">
+        <div class="container-fluid">
+            <div class="row bg-success-subtle justify-content-center p-3">
+                <div class="col">
+                    <div class="display-6 align-content-center" id="server_public_address_display"></div>
+                </div>
+                <div class="col-4 align-self-center">
+                    <div class="input-group">
+                        <input class="form-control bg-body-secondary" id="ip_addr"></input>
+                        <button class="btn btn-success col-3" id="connect_button"> connect </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="message-render-area" class="min-vh-100 border border-primary d-flex align-items-end">
+        <div class="container px-5">
+            <div class="row justify-content-center py-3" id="message_body">
+            </div>
+        </div>
+    </section>
+
+    <section id="chat_input_part" class=" sticky-bottom bg-body p-3">
+        <div class="container">
+            <div class="row justify-content-center align-self-end">
+                <div class="col-8">
+                    <div class="input-group">
+                        <input class="form-control form-control-lg bg-body-secondary" id="chat_input"
+                            autofocus="true"></input>
+                        <!-- <button class="btn btn-success col-2" id="send_button"> send </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./renderer.js"></script>
+</body>
+
+</html>
