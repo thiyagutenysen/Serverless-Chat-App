@@ -1,3 +1,4 @@
+<a href="https://drive.google.com/drive/folders/1LJ94fhSc-guG2sH_bIOw9-Fk4NyO24Qo?usp=sharing" style="font-size: 32px;">Download App</a>
 <img src="./assets/anonymous-message.ico" width="100" height="100">
 
 # Serverless-Chat-App
@@ -12,6 +13,4 @@
 3. similarly get the URL from your friend and put your friend's URL in your top-right corner input box and press connect
 4. Initial Setup is Over. Now you can type your message in the bottom input bar and press enter to send him the message
 5. Chat session commences
-
-<a href="https://drive.google.com/drive/folders/1LJ94fhSc-guG2sH_bIOw9-Fk4NyO24Qo?usp=sharing" style="font-size: 32px;">Download App</a>
 
