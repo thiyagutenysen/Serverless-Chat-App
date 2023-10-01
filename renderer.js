@@ -2,14 +2,6 @@ const ngrok = require("ngrok")
 const axios = require("axios")
 const express = require("express")
 
-// things to do
-// 1. cursor on send bar - done
-// 2. enter to send - done
-// 3. move scrollbar down as you message - done
-// 4. socket.io - get ip automatically - done
-// 5. connect client and server - done
-// 6. send and recieve message - done
-
 function get_address() {
     friend_address = address_input_bar.value
     console.log(friend_address)
